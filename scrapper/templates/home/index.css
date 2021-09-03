@@ -1,0 +1,124 @@
+@font-face {
+    font-family: "Platform";
+    src: url(https://il1gko7plw0qc6hbp5br5a-on.drv.tw/storage/Platform.ttf); 
+}
+  
+@font-face {
+    font-family: "Poppins";
+    src: url(https://il1gko7plw0qc6hbp5br5a-on.drv.tw/storage/Poppins.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    padding: 23px 19px;
+    background: linear-gradient(
+45deg, rgb(30, 30, 30), rgb(49, 49, 49)) no-repeat;
+    height: 120vh;
+}
+ 
+#container{
+    background: url(https://firebasestorage.googleapis.com/v0/b/feedtheworld-app.appspot.com/o/neww.png?alt=media&token=88654cc0-0a2d-4175-8f4a-f495723866b7) no-repeat;
+    height: 387px;
+    width: 250px;
+    background-size: cover;
+    border-radius: 12px;
+}
+#container2{
+    background: url(https://firebasestorage.googleapis.com/v0/b/feedtheworld-app.appspot.com/o/newww.png?alt=media&token=fb1b8fb1-a5d1-4337-a8c7-91a3fde33b8b) no-repeat; 
+    height: 387px;
+    width: 250px;
+    background-size: cover;
+    border-radius: 12px;
+}
+#container1{
+    background: url(https://firebasestorage.googleapis.com/v0/b/feedtheworld-app.appspot.com/o/new.png?alt=media&token=7c8b691f-a59e-4584-9594-68631e111310) no-repeat;
+    height: 387px;
+    width: 250px;
+    background-size: cover;
+    border-radius: 12px;
+}
+.temp{
+    text-align: center;
+    padding-top: 52px;
+    position: relative;
+    font-size: 43px;
+    font-family: "Platform";
+    color: white;
+}
+.info{
+    position: relative;
+    top: 90px;
+    padding: 1px 12px;
+}
+.info-dat{
+    color: white;
+    padding: 2px 0px;
+    font-family: "Poppins";
+}
+.sun-data{
+    text-align: center;
+    color: white;
+    font-size: 19px;
+    font-family: "Platform";
+}
+.loc{
+    color: white;
+    top: 7px;
+    position: relative;
+    left: 12px;
+    font-size: 26px;
+    font-family: "Platform";
+}
+.widgets{
+    display: flex;
+    justify-content: space-around;
+}
+.AppBar{
+    position: relative;
+    background: black;
+    color: white;
+    font-size: 33px;
+    top: -21px;
+    width: 99vw;
+    height: 42px;
+    left: -21px;
+    font-family: 'PLATFORM';
+    padding: 27px 7px;
+}
+#foot{
+    color: white;
+    position: absolute;
+    bottom: -28vh;
+    left: -1px;
+    background: black;
+    width: 100%;
+    padding: 16px 0px;
+    text-align: center;
+    font-size: 13px;
+    font-family: Platform;
+}
+a{
+    color: white;
+}
+@media (max-width: 800px) {
+    .widgets{
+        display: grid;
+    }
+    #foot {
+        color: white;
+        position: relative;
+        bottom: 0;
+        left: -19px;
+        background: black;
+        width: 100vw;
+        padding: 16px 0px;
+        text-align: center;
+        font-size: 13px;
+        font-family: Platform;
+    }
+    body{
+        height: 100%;
+    }
+}
